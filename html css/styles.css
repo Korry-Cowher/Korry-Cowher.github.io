@@ -8,7 +8,7 @@
     padding: 0;
 }
 body{
-    background-image:url("C:\Users\kcowh\OneDrive\Documents\webdev\portfolio\images\background-mountain.jpg");
+    background-image:url("../images/city-background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -56,7 +56,7 @@ header{
     text-decoration: underline;
 }
 .nav-bar-options li a:hover {
-    color: #ffffff;
+    color: #362f2f;
     text-decoration: none;
 }
 #logo{
