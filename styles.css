@@ -8,7 +8,7 @@
     padding: 0;
 }
 body{
-    background-image:url("../images/city-background.jpg");
+    background-image:url("../images/bantersnaps-vUwJ8uu_C1M-unsplash.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -16,7 +16,7 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 20px;
@@ -32,11 +32,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 70px;
-}
-header{
     background-color: #ffffff;
     opacity: .75;
-    
 }
 .Name-logo{
     cursor: pointer;
@@ -60,7 +57,16 @@ header{
     text-decoration: none;
 }
 #logo{
-    width: 100%;
-    height: 150px;
+    position: flex;
+    align-items:flex-start;
+    opacity: none;
     
+}
+#photo{
+    size: 25%;
+    height: 60vh;
+    margin-left: 5%;
+    padding: 25px;
+    border: none;
+    border-radius: 25px;
 }
