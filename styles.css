@@ -19,7 +19,9 @@ body{
     height: 100%;
     font-family: 'Amatic SC', sans-serif;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -29,13 +31,16 @@ header{
     display: -o-flex;
     display: -webkit-flex;
     display: flex;
-    width: fit-content;
+    width:100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 70px;
+    padding: 10px 40px;
     background-color: #ffffff;
     opacity: .75;
     height: 30vh;
+    position: fixed;
+    z-index: 1;
+    
 }
 .nav-bar-options{
     list-style: none;
@@ -44,6 +49,7 @@ header{
     display: inline-block;
     padding: 0 50px;
     text-transform: uppercase;
+    z-index: initial;
 }
 .nav-bar-options li a{
     transition: .5s;
@@ -57,9 +63,11 @@ header{
 #photo{
     width: 100%;
     border-radius: 50%;
+    border-left: solid;
+    border-color: red;
+    border-width: 5px;
+    
 }
-
-
 
 .holdingContainer{
     width: 80%;
@@ -68,6 +76,7 @@ header{
     display: -o-flex;
     display: -webkit-flex;
     padding: 50px;
+    z-index: 2;
     
     
 }
@@ -78,20 +87,22 @@ header{
     font-size: 35px;
     color: red;
     text-decoration: underline;
+    margin-top: 185px;
 }
 .right{
     flex: 1;
     background:#F9F9F8;
     padding: 30px;
-    font-size: 35px;
+    font-size: 45px;
     font-family: 'Amatic SC' , sans-serif;
     opacity: .95;
-    margin-top: 15%;
+    margin-top: 35%;
     margin-left: 50px;
     color: red;
     border-left: solid;
     border-left-color: red;
-    
+    position: relative;
+    height: 50%;
 
 }
 
