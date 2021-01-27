@@ -64,6 +64,9 @@ header{
 .holdingContainer{
     width: 80%;
     display:flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -webkit-flex;
     padding: 50px;
     
     
