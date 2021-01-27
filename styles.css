@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -17,9 +17,9 @@ body{
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 35px;
 }
 a{
     text-decoration: none;
@@ -32,7 +32,7 @@ header{
     width: fit-content;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 70px;
+    padding: 10px 70px;
     background-color: #ffffff;
     opacity: .75;
     height: 30vh;
@@ -42,7 +42,7 @@ header{
 }
 .nav-bar-options li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 50px;
     text-transform: uppercase;
 }
 .nav-bar-options li a{
@@ -71,16 +71,23 @@ header{
 .left{
     flex: 1;
     padding-right:30px; 
+    font-family: 'Amatic SC' , sans-serif;
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
 }
 .right{
     flex: 1;
     background:#F9F9F8;
     padding: 30px;
-    font-size: 28px;
-    font-family: 'Work Sans' , sans-serif;
+    font-size: 35px;
+    font-family: 'Amatic SC' , sans-serif;
     opacity: .90;
     height: 75%;
-    margin-top: 5%
+    margin-top: 15%;
+    color: red;
+    border-left: solid;
+    border-left-color: red;
     
 
 }
