@@ -42,7 +42,7 @@ header{
     padding: 10px 40px;
     background-color: #ffffff;
     opacity: .75;
-    height: 30vh;
+    height: 20vh;
     position: fixed;
     z-index: 1;
 }
@@ -106,7 +106,7 @@ header{
     font-size: 30px;
     color: red;
     text-decoration: underline;
-    margin-top: 450px;
+    margin-top: 250px;
 }
 .right{
     flex: 1;
@@ -115,7 +115,7 @@ header{
     font-size: 25px;
     font-family: 'Poppins' , sans-serif;
     opacity: .95;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-left: 50px;
     color:black;
     border-left: solid;
@@ -139,7 +139,7 @@ header{
     background:red;
     opacity: .50;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translate(-50%);
 }
 
 .wrapper .row{
@@ -159,25 +159,6 @@ header{
     width: calc(50% - 40px);
     padding: 20px;
     position: relative;
-}
-
-.wrapper .row section::before{
-    position:absolute;
-    content: "";
-    height: 15px;
-    width: 15px;
-    background:white;
-    top: 28px;
-    transform: rotate(45deg);
-    
-}
-
-.row-1 section::before{
-    translate:453px;
-}
-
-.row-2 section::before{
-    translate: -28px;
 }
 
 .row section .details,
@@ -209,6 +190,7 @@ header{
     font-weight: 600;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 50px;
 }
 
 
