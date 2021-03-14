@@ -1,0 +1,121 @@
+
+.about-me-container{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+p{
+    font-size: 16pt;
+}
+
+#small-font{
+    font-size: 12pt;
+    list-style-type: square;
+}
+
+#main-list{
+    list-style: none;
+}
+
+#center-no-bullet{
+    list-style: none;
+    text-align: center;
+}
+
+#smaller-img{
+    height: 70%;
+}
+
+.about-me-container img{
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    text-align: center;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.less-margin{
+    margin-top: 30px;
+}
+
+#position{
+    text-align: center;
+    font-weight: 600;
+}
+
+div p,
+div ul{
+    text-align: left;
+}
+
+@media only screen and (max-width: 700px){
+    .about-me-container{
+        display: flex;
+        width: 80vw;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 250px;
+        text-align: left;
+        flex-wrap: wrap;
+        justify-content:center;
+        
+        
+    }
+    
+    .about-me-container img{
+        width: 300px;
+        height: 100%;
+    }
+    
+    .content{
+        text-align: center;
+        width: 300px;
+    }
+    
+    .less-margin{
+        margin-top: 30px;
+    }
+
+@media only screen and (max-width: 480px){
+    .about-me-container{
+        display: flex;
+        width: 80vw;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 300px;
+        text-align: left;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        
+    }
+    
+    .about-me-container img{
+        width: 300px;
+        height: 100%;
+    }
+    
+    .content{
+        text-align: center;
+        width: 300px;
+    }
+    
+    .less-margin{
+        margin-top: 30px;
+    }
+    
+}
+}

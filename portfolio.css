@@ -1,0 +1,74 @@
+.portfolio-flex-container{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-top: 250px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.portfolio-flex-container p{
+    font-size: 16pt;
+}
+.card-1{
+    width: 600px;
+    background-color:white;
+    border: 3px solid rgb(195, 0, 0,.5);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.content-grid{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "title-of-project"
+        "project-image"
+        "tech-header"
+        "technologies"
+        "description-header"
+        "description"
+    ;
+}
+
+.title-of-project{
+    grid-area: title-of-project;
+    justify-self: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.project-image{
+    grid-area: project-image;
+    justify-self: center;
+}
+.tech-header{
+    grid-area: tech-header;
+    justify-self: center;
+}
+.technologies{
+    grid-area: technologies;
+    justify-self: center;
+    text-align: center;
+}
+.description-header{
+    grid-area: description-header;
+    justify-self: center;
+}
+.description{
+    grid-area: description;
+    justify-self: center;
+}
+
+#project-image{
+    width: 500px;
+    border-radius: 10px;
+    
+}
+
+p{
+    margin-left: 20px;
+}
+
