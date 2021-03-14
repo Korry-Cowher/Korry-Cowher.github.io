@@ -63,12 +63,25 @@
 }
 
 #project-image{
-    width: 500px;
-    border-radius: 10px;
-    
+    width: 100%;
+    border-radius: 10px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#project-link{
+    width: 100px;
+    margin-top: 20px;
 }
 
 p{
     margin-left: 20px;
 }
 
+@media screen and (max-width: 440px){
+
+    .portfolio-flex-container{
+        margin-top: 150px;
+    }
+
+}
