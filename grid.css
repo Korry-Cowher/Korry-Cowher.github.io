@@ -90,6 +90,10 @@ div ul{
         margin-top: 30px;
     }
 
+    img{
+        margin-left: 22px;
+    }
+
 @media screen and (max-width: 480px){
     .about-me-container{
         display: flex;
@@ -115,6 +119,10 @@ div ul{
     
     .less-margin{
         margin-top: 30px;
+    }
+
+    img{
+        margin-left: 10px;
     }
     
 }
