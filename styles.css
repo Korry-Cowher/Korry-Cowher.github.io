@@ -48,10 +48,10 @@ header{
     top: 0;
 }
 
-footer{
+/* footer{
     height:200px;
-    opacity: .5;
-}
+    opacity: .1;
+} */
 
 #logo{
     width: 400px;
