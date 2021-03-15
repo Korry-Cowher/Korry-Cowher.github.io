@@ -49,8 +49,8 @@ header{
 }
 
 footer{
-    background-color: white;
-    height: 200px;
+    height:200px;
+    opacity: .5;
 }
 
 #logo{

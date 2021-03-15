@@ -13,11 +13,22 @@
 .card-1{
     width: 600px;
     background-color:white;
-    border: 3px solid rgb(195, 0, 0,.5);
+    border: 3px solid rgb(195, 0, 0,.15);
     border-radius: 5px;
     margin-top: 20px;
 }
 
+a {
+    color: rgb(195, 0, 0,.8);
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 
 .content-grid{
     display: grid;
