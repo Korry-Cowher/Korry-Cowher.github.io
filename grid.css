@@ -106,6 +106,7 @@ div ul{
     .about-me-container img{
         width: 300px;
         height: 100%;
+        text-align: center;
     }
     .content{
         text-align: center;
